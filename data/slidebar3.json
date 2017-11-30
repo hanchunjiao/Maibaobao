@@ -1,0 +1,9 @@
+[{"id":0,"name":"| 品牌","images":[{"url":"images/slidebar_1/31.jpg"},{"url":"images/slidebar_1/32.jpg"},{"url":"images/slidebar_1/33.jpg"},{"url":"images/slidebar_1/34.jpg"}
+,{"url":"images/slidebar_1/35.jpg"}]},
+{"id":1,"name":"| 热门推荐：",
+	"goodlist":[{"name":"登山包"},{"name":"旅行包"},{"name":"拉杆硬箱"}]},
+{"id":2,"name":"| 按价格","pricelist":[{"name":"199以下"},{"name":"200-299"},{"name":"300-599"}
+,{"name":"600-999"},{"name":"1000以上"}]},
+
+{"id":3,"name":"| 按主材质","goodlist":[{"name":"合成革"},{"name":"二层牛皮"}
+,{"name":"ABS/PC"},{"name":"帆布"},{"name":"真皮"}]}]

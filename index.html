@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>麦包包官方网站</title>
+	<link href="images/s.ico" rel="shortcut icon"/>
+	<style type="text/css">*{margin:0;padding:0;}</style>
+	<link rel="stylesheet" type="text/css" href="css/slide.css">
+	<link rel="stylesheet" type="text/css" href="css/slide2.css"><!--勿删 二级轮播图-->
+	<link rel="stylesheet" type="text/css" href="css/slidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"><!--勿删-->
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/floor.css">
+	<link rel="stylesheet" type="text/css" href="css/bottom.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script> 
+	<script type="text/javascript" src="js/slide.js"></script> 
+	<script type="text/javascript" src="js/input.js"></script>
+	<script type="text/javascript" src="js/slide_hover.js"></script>
+	<script type="text/javascript" src="js/floor.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+<!--顶部-->
+	<div class="top_Wrap">
+		<div class="top_l">
+			<p>您好，欢迎来到麦包包！ 【 <a href="login.html">登录</a> | <a href="register.html">注册</a> 】</p>
+		</div>
+		<div class="top_r">
+			<ul>
+				<li><a href="#">我的订单</a></li>
+				<li><a href="shopcar.html" title="查看我的购物车"><b id="shopcar" class="iconfont icon-xiazai1"></b><span>购物车</span>	<span class="zero" id="num">0</span>	<span class="iconfont icon-icon-up"></span></a>
+				</li>
+				<li id="webnav"><a href="#" class="no_border"><span>网站导航</span>	<span class="iconfont icon-icon-up"></span></a>
+						<!--网站导航hover上去后的div-->
+						<div id="webnav_hover">
+							<div>
+								<p>热门</p>
+								<span><a href="#">周二上心</a></span><span><a href="#">爆款推荐</a></span><span><a href="#">选包中心</a></span>
+							</div>
+							<div>
+								<p>购物</p>
+								<span><a href="#">男包馆</a></span><span><a href="#">女包馆</a></span><span><a href="#">运动旅行</a></span>
+							</div>
+							<div>
+								<p>服务</p>
+								<span><a href="#">新手帮助</a></span><span><a href="#">帮助中心</a></span><span><a href="#">麦豆说明</a></span>
+							</div>
+							<p class="telnum">服务热线 4006-526-528</p>
+						</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+<!--固定定位div 右下角随着滚动高度变化的-->
+	<div id="hide"><p class="iconfont icon-huidaodingbu"></p><span>回到顶部</span></div>
+	<div id="hide2">
+		<ul>
+			<li>品</li><li>尚</li><li>雅</li><li>士</li><li>动</li><li class="border_none">惠</li>
+		</ul>
+	</div>
+	
+	<div id="fixed">
+		<div><p class="iconfont icon-kefu"></p><span>在线咨询</span></div>
+		<div><p class="iconfont icon-xiazai1"></p><span>去购物车</span></div>
+		<div class="codeimg"><p class="iconfont icon-erweima"></p><span>二维码</span></div>
+	</div>
+	<div class="codeimg_hover"><img src="images/codeimg.png"></div>
+<!--头部-->
+	<div class="header_Wrap">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+
+		<div class="header_Middle">
+			<div class="input_Class">
+				<input type="text" id="input1" value="搜索“双肩包”试试~" />
+				<div id="text_Class">搜索</div>
+			</div>	
+			<ul class="hotkey">
+				<li class="pink_Text"><a href="#">潮流双肩包</a></li>
+				<li><a href="#">甜美韩风</a></li>
+				<li class="pink_Text"><a href="#">品质真皮</a></li>
+				<li><a href="#">绅士公文</a></li>
+				<li><a href="#" class="no_border">拉杆箱</a></li>
+			</ul>
+		</div>
+
+		<div class="header_Right">
+			<ul>
+				<li><img src="images/header_1.jpg"/></li>
+				<li><img src="images/header_2.jpg"/></li>
+				<li><img src="images/header_3.jpg"/></li>
+			</ul>
+		</div>
+	</div>
+<!--导航-->
+	<div class="nav_Wrap">
+		<div class="nav_Text1"><a href="#">全部商品分类</a></div>
+		<!-- <div class="nav_Text2">首页</div> -->
+		<ul>
+			<li class="have_Color"><a class="no_border" href="#">首页</a></li>
+			<li><a href="new.html" target="_blank">新品</a></li>
+			<li><a href="real_leather.html" target="_blank">真皮</a></li>
+			<li><a href="goodlist.html" target="_blank" class="no_border">选包</a></li>
+		</ul>
+
+		<div class="nav_Text2">
+			<span class="iconfont icon-shouji"></span>
+
+			<span><a href="#">	手机版</a></span>
+		</div>
+	</div>
+<!--主轮播图-->
+	<div class="wrap main_slide">
+		 <div class="banner">
+			 <div class="bannerCon">
+				 <ul class="imgList clearfix">
+				 <li><a href="#"><img src="images/slideshow_5.jpg" alt=""/></a></li>
+				 <li><a href="#"><img src="images/slideshow_1.jpg" alt=""/></a></li>
+				 <li><a href="#"><img src="images/slideshow_2.jpg" alt=""/></a></li>
+				 <li><a href="#"><img src="images/slideshow_3.jpg" alt=""/></a></li>
+				 <li><a href="#"><img src="images/slideshow_4.jpg" alt=""/></a></li>
+				 </ul>
+				 <ul class="btnList clearfix">
+					 <li class="cur"><span></span></li>
+					 <li><span></span></li>
+					 <li><span></span></li>
+					 <li><span></span></li>
+					 <li><span></span></li>
+				 </ul>
+				 <span class="pre-nex prev"><</span> 
+				 <span class="pre-nex next">></span> 
+			 </div>
+		 </div>
+	 </div>
+
+
+<!--侧边栏-->
+	 <div class="slidebar">
+		<div class="dl1" id="dl1">
+			<div class="dt dt1"></div>
+			<div class="dd dd1"></div>
+					<!--侧边栏hover出来的div-->
+					 <div id="slide_hover">
+						<span class="more"><a href="#">更多女包品牌>></a></span>
+						<div class="brand"></div>
+						<div class="hot"></div>
+						<div class="price"></div>
+						<div class="material"></div>
+						<div class="color"></div>
+						<div class="size"></div>
+					 </div>			
+		</div>
+
+		<div class="dl1" id="dl2">
+			<div class="dt dt2"></div>
+			<div class="dd dd2"></div>		
+		</div>
+
+		<div class="dl1" id="dl3">
+			<div class="dt dt3"></div>
+			<div class="dd dd3"></div>		
+		</div>
+
+		<div class="dl1 border_none" id="dl4">
+			<div class="dt dt4"></div>
+			<div class="dd dd4"></div>		
+		</div>
+
+		<div class="more">
+			<span><a href="#">查看更多包包>></a></span>
+		</div>
+		
+	 </div>
+<!--banner图下的图片-->
+	 <div class="three_img"></div>
+<!--!! 1楼-->
+	 <div class="onefloor_top">
+		<div class="div1">
+			<img src="images/one_floor/1.png">
+			<span>当季热销</span>
+		</div>
+		<div class="div2">
+			<span><a href="#">查看更多 > ></a></span>
+		</div>
+	 </div>
+		<!--1楼的banner图-->
+		 <div class="onef_Wrap">
+		 		<div class="onef_img"><img src="images/one_floor/slideshow/left_img.jpg"/></div>
+		 	
+				<!--轮播图-->
+			 	<div class="wrap">
+					 <div class="banner">
+						 <div class="bannerCon">
+							 <ul class="imgList clearfix">
+							 <li><a href="#"><img src="images/one_floor/slideshow/slideimg_1.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/one_floor/slideshow/slideimg_2.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/one_floor/slideshow/slideimg_3.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/one_floor/slideshow/slideimg_4.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/one_floor/slideshow/slideimg_5.jpg" alt=""/></a></li>
+							 </ul>
+							 <ul class="btnList clearfix">
+								 <li class="cur"><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+							 </ul>
+							 <span class="pre-nex prev"><</span> 
+							 <span class="pre-nex next">></span> 
+						 </div>
+					 </div>
+				</div>
+		 </div>
+
+ 		<!--1楼商品列表-->
+		<div class="onef_goodlist"><ul></ul></div>
+		
+<!--!! 2楼-->
+	 <div class="onefloor_top">
+		<div class="div1">
+			<img src="images/two_floor/2.png">
+			<span>时尚青春</span>
+		</div>
+		<div class="div2">
+			<span><a href="#">查看更多 > ></a></span>
+		</div>
+	 </div>
+		<!--2楼的banner图-->
+		 <div class="onef_Wrap">
+		 		<div class="onef_img"><img src="images/two_floor/slideshow/left_img.jpg"/></div>
+				<!--轮播图-->
+			 	<div class="wrap">
+					 <div class="banner">
+						 <div class="bannerCon">
+							 <ul class="imgList clearfix">
+							 <li><a href="#"><img src="images/two_floor/slideshow/slideimg_1.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/two_floor/slideshow/slideimg_2.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/two_floor/slideshow/slideimg_3.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/two_floor/slideshow/slideimg_4.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/two_floor/slideshow/slideimg_5.jpg" alt=""/></a></li>
+							 </ul>
+							 <ul class="btnList clearfix">
+								 <li class="cur"><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+							 </ul>
+							 <span class="pre-nex prev"><</span> 
+							 <span class="pre-nex next">></span> 
+						 </div>
+					 </div>
+				</div>
+		 </div>
+
+ 		<!--2楼商品列表-->
+		<div class="twof_goodlist"><ul></ul></div>
+<!--!! 3楼-->
+	 <div class="onefloor_top">
+		<div class="div1">
+			<img src="images/three_floor/3.png">
+			<span>精致女人</span>
+		</div>
+		<div class="div2">
+			<span><a href="#">查看更多 > ></a></span>
+		</div>
+	 </div>
+		<!--3楼的banner图-->
+		 <div class="onef_Wrap">
+		 		<div class="onef_img"><img src="images/three_floor/slideshow/left_img.jpg"/></div>
+				<!--轮播图-->
+			 	<div class="wrap">
+					 <div class="banner">
+						 <div class="bannerCon">
+							 <ul class="imgList clearfix">
+							 <li><a href="#"><img src="images/three_floor/slideshow/slideimg_1.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/three_floor/slideshow/slideimg_2.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/three_floor/slideshow/slideimg_3.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/three_floor/slideshow/slideimg_4.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/three_floor/slideshow/slideimg_5.jpg" alt=""/></a></li>
+							 </ul>
+							 <ul class="btnList clearfix">
+								 <li class="cur"><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+							 </ul>
+							 <span class="pre-nex prev"><</span> 
+							 <span class="pre-nex next">></span> 
+						 </div>
+					 </div>
+				</div>
+		 </div>
+
+ 		<!--3楼商品列表-->
+		<div class="threef_goodlist"><ul></ul></div>
+<!--!! 4楼-->
+	 <div class="onefloor_top">
+		<div class="div1">
+			<img src="images/four_floor/4.png">
+			<span>型男绅士</span>
+		</div>
+		<div class="div2">
+			<span><a href="#">查看更多 > ></a></span>
+		</div>
+	 </div>
+		<!--4楼的banner图-->
+		 <div class="onef_Wrap">
+		 		<div class="onef_img"><img src="images/four_floor/slideshow/left_img.jpg"/></div>
+				<!--轮播图-->
+			 	<div class="wrap">
+					 <div class="banner">
+						 <div class="bannerCon">
+							 <ul class="imgList clearfix">
+							 <li><a href="#"><img src="images/four_floor/slideshow/slideimg_1.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/four_floor/slideshow/slideimg_2.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/four_floor/slideshow/slideimg_3.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/four_floor/slideshow/slideimg_4.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/four_floor/slideshow/slideimg_5.jpg" alt=""/></a></li>
+							 </ul>
+							 <ul class="btnList clearfix">
+								 <li class="cur"><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+							 </ul>
+							 <span class="pre-nex prev"><</span> 
+							 <span class="pre-nex next">></span> 
+						 </div>
+					 </div>
+				</div>
+		 </div>
+
+ 		<!--4楼商品列表-->
+		<div class="fourf_goodlist"><ul></ul></div>
+<!--!! 5楼-->
+	 <div class="onefloor_top">
+		<div class="div1">
+			<img src="images/five_floor/5.png">
+			<span>运动爱好者</span>
+		</div>
+		<div class="div2">
+			<span><a href="#">查看更多 > ></a></span>
+		</div>
+	 </div>
+		<!--5楼的banner图-->
+		 <div class="onef_Wrap">
+		 		<div class="onef_img"><img src="images/five_floor/slideshow/left_img.jpg"/></div>
+				<!--轮播图-->
+			 	<div class="wrap">
+					 <div class="banner">
+						 <div class="bannerCon">
+							 <ul class="imgList clearfix">
+							 <li><a href="#"><img src="images/five_floor/slideshow/slideimg_1.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/five_floor/slideshow/slideimg_2.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/five_floor/slideshow/slideimg_3.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/five_floor/slideshow/slideimg_4.jpg" alt=""/></a></li>
+							 <li><a href="#"><img src="images/four_floor/slideshow/slideimg_5.jpg" alt=""/></a></li>
+							 </ul>
+							 <ul class="btnList clearfix">
+								 <li class="cur"><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+								 <li><span></span></li>
+							 </ul>
+							 <span class="pre-nex prev"><</span> 
+							 <span class="pre-nex next">></span> 
+						 </div>
+					 </div>
+				</div>
+		 </div>
+
+		<!--5楼商品列表-->
+		<div class="fivef_goodlist"><ul></ul></div>
+<!--热卖品牌-->
+		<div class="hotgoodlist_top"><span>热卖品牌</span></div>
+		<div class="hot_goodlist"><ul></ul></div>
+<!--底部-->
+		<div class="twocode"></div>
+		<div id="wechat"><img src="images/bottom/wechat.png"></div>
+		<div class="bottombar"></div>
+		<div class="bottomlist"></div>
+		<div class="text"></div>
+		<div class="last"></div>	
+</body>
+
+</html>

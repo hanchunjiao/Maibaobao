@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的购物车</title>
+	<link href="images/s.ico" rel="shortcut icon"/>
+	<style type="text/css">*{margin:0;padding:0;}</style>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/reg.css">
+	<link rel="stylesheet" type="text/css" href="css/shopcar.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/shopcar.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<style type="text/css">
+		.header_Wrap .header {width: 965px;}
+	</style>
+</head>
+<body>
+	<div class="header_Wrap">
+		<div class="header">
+			<img src="images/login/logo.jpg">
+			<div class="userinfo">
+				<p class="letter">购物车</p>
+				<p class="info">17854255351 您好,欢迎来到麦包包</p>
+			</div>
+			<img class="right" src="images/shopcar/liucheng.png"/>
+		</div>
+	</div>
+<!--注册表格-->
+	<div class="register_Wrap">
+		<div class="div1">温馨提示:&nbsp;&nbsp;&nbsp;&nbsp;<span>加入购物车的商品无法为您保留库存，请及时下单购买，商品价格以订单提交时的价格为准</span>
+		</div>
+		
+		<div class="div2">
+			<img src="images/shopcar/nav.png"/>
+			<div class="commo">
+				<img src="images/good_details/2.jpg"/>
+				<span>[Clous Krause]vintage系列 女士手提单肩斜挎包</span>
+				<span class="price">￥368.00</span>
+			 
+				<div class="goodnum">
+					<button id="sub">-</button>
+					<button id="goodnumber">0</button>
+					<button id="add">+</button>
+				</div>
+				<b id="priceall">￥0.00</b>
+				<button id="del">删除</button>
+			</div>
+			<div class="div3">
+				<div class="coupon"><img src="images/shopcar/coupon.png"></div>
+				<div class="go">
+					<p>商品件数：<span id="goodnumber2">0</span>件</p>
+					<p>商品总金额（不含运费）:<span id="priceall2">0.00</span></p>
+					<p>麦豆抵扣：-￥0.00</p>
+					<p>运费：￥0.00</p>
+					<p class="red">您可享受免运费服务</p>
+					<p class="all">应付金额：<span id="priceall3">0.00</span></p>
+					<p><button>￥ 去结算</button></p>
+				</div>
+			</div>
+
+				
+		</div>
+	</div>
+	<div class="div3">
+		<div class="tubiao">
+			<ul>
+				<li><span class="iconfont icon-baozhuanhuan bold"></span>&nbsp;&nbsp;<span class="grey">每周上新&nbsp;引领时尚</span></li>
+				<li><span class="iconfont icon-icon-test"></span>&nbsp;&nbsp;<span class="grey">高性价比&nbsp;品类齐全</span></li>
+				<li><span class="iconfont icon-aixin"></span>&nbsp;&nbsp;<span class="grey">品牌正品&nbsp;金牌服务</span></li>
+				<li><span class="iconfont icon-weibiaoti101"></span>&nbsp;&nbsp;<span class="grey">全场顺丰&nbsp;支持到货付款</span></li>
+				<li><span class="iconfont icon-10 bold"></span>&nbsp;&nbsp;<span class="grey">10天内无条件退换货</span></li>
+			</ul>
+		</div>
+
+		<div class="last">
+			©2007-2012 Mbaobao All Rights Reserved. 嘉兴市麦宝科技信息有限公司 版权所有，禁止非法复制 经营许可证编号：浙B2-20100425
+		</div>
+	</div>
+</body>
+</html>

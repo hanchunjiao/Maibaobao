@@ -1,0 +1,148 @@
+.slidebar {
+  width: 229px;
+  height: 440px;
+  position: absolute;
+  top: 169px;
+  left: 30px;
+  top: 169px;
+  background-color: #fff; }
+  .slidebar a {
+    text-decoration: none;
+    color: black; }
+    .slidebar a:hover {
+      color: black; }
+  .slidebar .dl1 {
+    padding: 0px 13px;
+    height: 91px;
+    border-bottom: 1px solid #cfd6d3; }
+  .slidebar .dl1 .dt {
+    height: 40px; }
+    .slidebar .dl1 .dt .iconfont {
+      font-size: 16px;
+      font-weight: 700; }
+    .slidebar .dl1 .dt .icon-jiantou-copy {
+      font-size: 10px;
+      float: right; }
+  .slidebar .dl1 span {
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 40px; }
+  .slidebar .dl1 .dd a {
+    padding: 0px 4px;
+    font-size: 12px;
+    color: grey; }
+  .slidebar .border_none {
+    border: none; }
+  .slidebar .more {
+    text-align: center;
+    padding-top: 40px;
+    color: #666;
+    font-size: 13px; }
+
+#slide_hover {
+  position: absolute;
+  width: 694px;
+  height: 445px;
+  padding: 15px 10px;
+  background-color: #fff;
+  top: 0px;
+  left: 228px;
+  border: 1px solid #cfd6d3;
+  display: none; }
+  #slide_hover span {
+    float: right; }
+  #slide_hover span a {
+    color: grey;
+    font-weight: normal;
+    font-size: 12px; }
+  #slide_hover p a {
+    color: #d51c4e; }
+  #slide_hover div {
+    float: left; }
+  #slide_hover div img {
+    border: 1px dashed #cfd6d3;
+    width: 97px;
+    height: 79px; }
+  #slide_hover .brand {
+    width: 500px;
+    height: 110px; }
+  #slide_hover .hot {
+    border-bottom: 1px solid #cfd6d3;
+    padding: 5px;
+    float: left;
+    width: 320px;
+    height: 110px; }
+    #slide_hover .hot p a {
+      color: #d51c4e; }
+    #slide_hover .hot span {
+      float: none;
+      padding: 0 7px; }
+    #slide_hover .hot span a {
+      color: black;
+      font-size: 12px; }
+  #slide_hover .price {
+    width: 320px;
+    height: 110px;
+    float: right;
+    padding: 5px;
+    border-bottom: 1px solid #cfd6d3; }
+    #slide_hover .price p a {
+      color: #d51c4e; }
+    #slide_hover .price span {
+      float: none;
+      padding: 0 4px; }
+    #slide_hover .price span a {
+      color: black;
+      font-size: 12px; }
+  #slide_hover .material {
+    border-bottom: 1px solid #cfd6d3;
+    padding: 5px;
+    float: left;
+    width: 320px;
+    height: 110px; }
+    #slide_hover .material p a {
+      color: #d51c4e;
+      line-height: 30px; }
+    #slide_hover .material span {
+      float: none;
+      padding: 0 5px; }
+    #slide_hover .material span a {
+      color: black;
+      font-size: 12px; }
+  #slide_hover .color {
+    width: 320px;
+    height: 110px;
+    float: right;
+    padding: 5px;
+    border-bottom: 1px solid #cfd6d3; }
+    #slide_hover .color p a {
+      color: #d51c4e;
+      line-height: 30px; }
+    #slide_hover .color span {
+      float: none;
+      padding: 0 5px; }
+    #slide_hover .color span a {
+      color: black;
+      font-size: 12px; }
+  #slide_hover .size {
+    padding: 5px;
+    float: left;
+    width: 400px;
+    height: 90px; }
+    #slide_hover .size p a {
+      color: #d51c4e;
+      line-height: 10px; }
+    #slide_hover .size span {
+      float: none;
+      padding: 0 9px;
+      line-height: 20px; }
+    #slide_hover .size span a {
+      color: black;
+      font-size: 12px; }
+
+.three_img {
+  width: 1200px;
+  height: 240px;
+  margin-left: 20px;
+  margin: 5px auto;
+  padding: 0px; }

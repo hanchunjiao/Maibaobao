@@ -1,0 +1,109 @@
+.header_Wrap {
+  height: 80px;
+  border-bottom: 3px solid #eb2929; }
+  .header_Wrap .header {
+    width: 850px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 20px; }
+    .header_Wrap .header img {
+      float: left; }
+    .header_Wrap .header span {
+      line-height: 50px;
+      color: grey;
+      font-size: 12px;
+      float: right; }
+      .header_Wrap .header span a {
+        color: grey;
+        text-decoration: none;
+        font-size: 13px; }
+
+.cont_Wrap {
+  width: 850px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 50px; }
+  .cont_Wrap .left {
+    float: left; }
+  .cont_Wrap .right {
+    padding-top: 6px;
+    height: 303px;
+    width: 355px;
+    float: right;
+    background-color: #f5f5f5; }
+    .cont_Wrap .right .r_line1 {
+      width: 300px;
+      height: 50px;
+      margin: 0 auto;
+      border-bottom: 1px solid #cfd6d3;
+      line-height: 50px; }
+      .cont_Wrap .right .r_line1 .span1 {
+        font-size: 14px;
+        font-weight: bolder;
+        float: left; }
+      .cont_Wrap .right .r_line1 .span2 {
+        float: right;
+        font-size: 12px;
+        color: grey; }
+        .cont_Wrap .right .r_line1 .span2 a {
+          text-decoration: none;
+          color: red; }
+    .cont_Wrap .right .form {
+      padding-top: 20px;
+      width: 300px;
+      margin: 0 auto; }
+      .cont_Wrap .right .form p {
+        font-size: 14px;
+        color: grey;
+        line-height: 40px; }
+        .cont_Wrap .right .form p input {
+          height: 28px;
+          width: 170px;
+          border: none; }
+        .cont_Wrap .right .form p .forget {
+          color: red;
+          font-size: 12px;
+          text-decoration: none; }
+      .cont_Wrap .right .form .user {
+        text-indent: 13px; }
+      .cont_Wrap .right .form .submitbtn {
+        background-color: #ff0000;
+        font-size: 12px;
+        border: none;
+        height: 30px;
+        width: 100px;
+        line-height: 30px;
+        color: #fff; }
+      .cont_Wrap .right .form .submit {
+        text-indent: 72px; }
+      .cont_Wrap .right .form .userwarn {
+        text-indent: 2px;
+        color: red; }
+    .cont_Wrap .right .coop {
+      text-indent: 20px;
+      color: red;
+      padding-top: 40px;
+      font-size: 12px;
+      color: grey; }
+    .cont_Wrap .right .app {
+      padding-left: 20px;
+      padding-top: 10px; }
+      .cont_Wrap .right .app a {
+        text-decoration: none;
+        color: grey;
+        font-size: 12px; }
+      .cont_Wrap .right .app .icon-qq {
+        color: black; }
+      .cont_Wrap .right .app .icon-xinlang {
+        color: red;
+        font-size: 20px; }
+      .cont_Wrap .right .app .icon-logo {
+        color: blue;
+        font-size: 14px; }
+      .cont_Wrap .right .app .icon-weixin {
+        color: green; }
+
+.last {
+  text-align: center;
+  color: grey;
+  font-size: 12px; }

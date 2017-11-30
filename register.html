@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>麦包包-用户注册</title>
+	<link href="images/s.ico" rel="shortcut icon"/>
+	<style type="text/css">*{margin:0;padding:0;}.header_Wrap .header_Middle{width:400px;}</style>
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"><!--勿删-->
+	<link rel="stylesheet" type="text/css" href="css/reg.css">
+	<link rel="stylesheet" type="text/css" href="css/xcConfirm.css"/>
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/input.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+	<!--登录弹窗的js-->
+	<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/xcConfirm.js" type="text/javascript" charset="utf-8"></script>
+	<style type="text/css">
+		.top_Wrap{padding-left:150px;padding-right:150px;}
+		.header_Wrap{width:80%;margin:0 auto;}
+		.header_Wrap .header_Middle{padding-left:160px;width:570px;}
+		.nav_Wrap{padding:0px 150px;}
+		.twocode{width:978px;}
+		.bottombar{width:960px;}.bottombar ul li a{padding:0px 70px;}
+		.bottomlist ul li{padding:10px 30px;}
+		.bottomlist{padding-left: 136px}
+	</style>
+</head>
+<body>
+	<!--顶部-->
+	<div class="top_Wrap">
+		<div class="top_l">
+			<p>您好，欢迎来到麦包包！ 【 <a href="login.html">登录</a> | <a href="#">注册</a> 】</p>
+		</div>
+		<div class="top_r">
+			<ul>
+				<li><a href="#">我的订单</a></li>
+				<li><a href="#"><b id="shopcar" class="iconfont icon-xiazai1">	</b><span>购物车</span>	<span class="zero">0</span>	<span class="iconfont icon-icon-up"></span></a></li>
+				<li id="webnav"><a href="#" class="no_border"><span>网站导航</span>	<span class="iconfont icon-icon-up"></span></a></li>
+			</ul>
+		</div>
+	</div>
+	<!--头部-->
+	<div class="header_Wrap">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+
+		<div class="header_Middle">
+			<div class="input_Class">
+				<input type="text" id="input1" value="搜索“双肩包”试试~" />
+				<div id="text_Class">搜索</div>
+			</div>	
+			<ul class="hotkey">
+				<li class="pink_Text"><a href="#">潮流双肩包</a></li>
+				<li><a href="#">甜美韩风</a></li>
+				<li class="pink_Text"><a href="#">品质真皮</a></li>
+				<li><a href="#">绅士公文</a></li>
+				<li><a href="#" class="no_border">拉杆箱</a></li>
+			</ul>
+		</div>
+
+		<div class="header_Right">
+			<ul>
+				<li><img src="images/header_1.jpg"/></li>
+				<li><img src="images/header_2.jpg"/></li>
+				<li><img src="images/header_3.jpg"/></li>
+			</ul>
+		</div>
+	</div>
+<!--导航-->
+	<div class="nav_Wrap">
+		<div class="nav_Text1"><a href="#">全部商品分类</a></div>
+		<ul>
+			<li class="have_Color"><a class="no_border" href="index.html">首页</a></li>
+			<li><a href="new.html">新品</a></li>
+			<li><a href="real_leather.html">真皮</a></li>
+			<li><a href="goodlist.html" class="no_border">选包</a></li>
+		</ul>
+
+		<div class="nav_Text2">
+			<span class="iconfont icon-shouji"></span>
+			<span><a href="#">	手机版</a></span>
+		</div>
+	</div>
+<!--注册表格-->
+	<div class="register_Wrap">
+		<div class="div1">欢迎注册麦包包网站</div>
+		<div class="div2">
+			<form action="" method="">
+				<p>手机号码：<input id="telinput" type="text" name=""/>&nbsp;<span id="tel"></span></p>
+				<p>设置密码：<input id="passinput" type="password" name=""/>&nbsp;<span id="pass"></span></p>
+				<p>确认密码：<input id="asureinput" type="password" name=""/>&nbsp;<span id="asure"></span></p>
+				<p>验证码：&nbsp;&nbsp;&nbsp; <button class="notebtn">免费获取短信验证码<span class="iconfont icon-sanx-up"></span></button>&nbsp;&nbsp;<input id="authcodeinput" class="authcode" type="text" name=""/>&nbsp;<span id="auth"></span></p>
+				<p class="submit"><button id="submitbtn" class="submitbtn">提交注册<span class="iconfont icon-sanx-up"></span></button></p>
+				
+				 <div class="checkbox">
+				    <label>
+				      <input type="checkbox">我已阅读并同意<span class="pink">《麦包包用户服务协议》</span>
+				    </label>
+				 </div>
+			</form>				
+		</div>
+	</div>
+	<div class="div3"></div>
+</body>
+</html>

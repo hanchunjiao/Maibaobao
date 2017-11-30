@@ -1,0 +1,101 @@
+.text1 {
+  width: 1190px;
+  height: 32px;
+  margin: 0 auto;
+  line-height: 32px;
+  color: black;
+  font-size: 14px;
+  text-align: left; }
+  .text1 .select {
+    color: #d51c4e;
+    font-size: 16px;
+    font-weight: 700; }
+
+.goodlist_Wrap {
+  margin-left: 30px;
+  overflow: hidden; }
+
+#guide {
+  width: 200px;
+  height: 500px;
+  float: left;
+  border: 1px solid grey;
+  border-left: none;
+  text-indent: 5px; }
+  #guide h2 {
+    cursor: pointer;
+    outline: none;
+    height: 16px;
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 5px; }
+    #guide h2:hover {
+      color: red; }
+    #guide h2 span {
+      float: right;
+      color: grey; }
+  #guide div {
+    font-size: 12px; }
+    #guide div p:hover {
+      background-color: #cd0000; }
+    #guide div p a {
+      text-decoration: none;
+      color: grey; }
+      #guide div p a:hover {
+        color: #fff; }
+  #guide .line1 {
+    background-color: #666666;
+    line-height: 25px;
+    color: #fff; }
+
+.goodlist {
+  margin-right: 30px;
+  width: 1000px;
+  float: right; }
+  .goodlist .goodlist_1 {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-indent: 10px; }
+  .goodlist .goodlist_2 {
+    height: 35px;
+    width: 1000px;
+    border-bottom: 1px solid #cd0000;
+    font-size: 12px;
+    line-height: 35px;
+    text-indent: 10px; }
+    .goodlist .goodlist_2 .red {
+      color: #d51c4e; }
+    .goodlist .goodlist_2 .arrow {
+      font-size: 8px;
+      font-weight: bold; }
+    .goodlist .goodlist_2 .next {
+      float: right;
+      color: green; }
+  .goodlist #goodlist_content {
+    width: 1000px;
+    padding: 20px; }
+    .goodlist #goodlist_content ul li {
+      width: 240px;
+      height: 300px;
+      text-align: center; }
+      .goodlist #goodlist_content ul li:hover {
+        box-shadow: 0 0 5px grey;
+        transition: all 0.4s; }
+      .goodlist #goodlist_content ul li p {
+        color: grey;
+        font-size: 14px;
+        cursor: pointer; }
+      .goodlist #goodlist_content ul li .s1 {
+        color: #d51c4e;
+        text-align: left; }
+      .goodlist #goodlist_content ul li .s2 {
+        text-decoration: line-through;
+        color: grey; }
+      .goodlist #goodlist_content ul li span {
+        padding: 0px 3px; }
+      .goodlist #goodlist_content ul li div {
+        cursor: pointer;
+        margin-top: 3px; }

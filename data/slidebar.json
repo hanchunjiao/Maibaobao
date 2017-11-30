@@ -1,0 +1,17 @@
+[{"id":0,"name":"| 品牌","images":[{"url":"images/slidebar_1/slidebar_1.1.jpg"},
+	{"url":"images/slidebar_1/slidebar_1.2.jpg"},
+	{"url":"images/slidebar_1/slidebar_1.3.jpg"},
+	{"url":"images/slidebar_1/slidebar_1.4.jpg"},
+	{"url":"images/slidebar_1/slidebar_1.5.jpg"}]},
+{"id":1,"name":"| 热门推荐：",
+	"goodlist":[{"name":"贝壳包"},{"name":"小方包"},{"name":"链条包"},{"name":"水桶包"},{"name":"托特包"}
+		,{"name":"小猪包"},{"name":"格纹包"},{"name":"菱格包"}]},
+{"id":2,"name":"| 按价格","pricelist":[{"name":"199以下"},{"name":"200-299"},{"name":"300-599"}
+,{"name":"600-999"},{"name":"1000以上"}]},
+
+{"id":3,"name":"| 按主材质","goodlist":[{"name":"真皮"},{"name":"合成革"},{"name":"二层牛皮"}
+,{"name":"羊皮"},{"name":"尼龙"},{"name":"帆布"}]}
+,{"id":4,"name":"| 按颜色","colorlist":[{"name":"黑色"},{"name":"粉色"},{"name":"杏色"},
+{"name":"蓝色"},{"name":"白色"},{"name":"红色"},{"name":"橘色"}]}
+,{"id":5,"name":"| 按尺寸","sizelist":[{"name":"迷你包（可放手机）"},{"name":"小包（可放iPad mini）"},
+{"name":"中包（可放iPad）"},{"name":"大包（可放A4纸）"},{"name":"超大容量"}]}]
